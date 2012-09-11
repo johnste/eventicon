@@ -1,8 +1,8 @@
 {
-  "name": "SocIcon",
+  "name": "Eventicon",
   "version": "0.1",
   "manifest_version": 2,
-  "description": "Update the favicon of sites with notifications",  
+  "description": "Update the favicon of sites with notifications",
   "content_scripts": [
     {
       "matches": ["*://facebook.com/*", "*://twitter.com/*", "*://linkedin.com/*"],
