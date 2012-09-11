@@ -4,4 +4,4 @@ A Chrome plugin that uses [Tinycon](https://github.com/tommoor/tinycon) to displ
 
 # License / Credits
 
-Notificon is released under the MIT license. It is simple and easy to understand and places almost no restrictions on what you can do with Notificon. [More Information](http://en.wikipedia.org/wiki/MIT_License)
+Eventicon is released under the MIT license. It is simple and easy to understand and places almost no restrictions on what you can do with Eventicon. [More Information](http://en.wikipedia.org/wiki/MIT_License)
