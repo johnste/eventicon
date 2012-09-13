@@ -5,8 +5,8 @@
   "description": "Update the favicon of sites with notifications",
   "content_scripts": [
     {
-      "matches": ["*://*.facebook.com/*", "*://*.twitter.com/*", "*://*.linkedin.com/*"],
-      "js": ["tinycon.min.js", "eventicon.js"]
+      "matches": ["<all_urls>", "*://*.facebook.com/*", "*://*.twitter.com/*", "*://*.linkedin.com/*", "*://*.reddit.com/*"],
+      "js": ["tinycon.js", "eventicon.js"]
     }
   ]
 }

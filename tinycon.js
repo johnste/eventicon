@@ -4,6 +4,7 @@
  * Copyright (c) 2012 Tom Moor
  * MIT Licensed
  * @version 0.3
+ * Slightly modified by John Sterling
 */
 
 (function(){
@@ -22,7 +23,8 @@
 		colour: '#ffffff',
 		background: '#F03D25',
 		fallback: true,
-		abbreviate: true
+		abbreviate: true,
+		overrides: []
 	};
 	
 	var ua = (function () {
@@ -70,6 +72,13 @@
 	
 	var getCurrentFavicon = function(){
 		
+		for(var i in options.overrides) {
+			if(options.overrides[i].href == document.location.href) {
+				originalFavicon = currentFavicon = options.overrides[i].favicon;
+				return currentFavicon;
+			}
+		}
+
 		if (!originalFavicon || !currentFavicon) {
 			var tag = getFaviconTag();
 			originalFavicon = currentFavicon = tag ? tag.getAttribute('href') : '/favicon.ico';
