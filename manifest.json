@@ -2,7 +2,8 @@
   "name": "Eventicon",
   "version": "0.1",
   "manifest_version": 2,
-  "description": "Show notifications from websites in the favicon",
+  "homepage_url": "http://johnste.github.com/eventicon",
+  "description": "Show notifications from websites in the favicon.",
   "content_scripts": [
     {
       "matches": ["*://*.facebook.com/*", "*://*.twitter.com/*", "*://*.linkedin.com/*", "*://*.reddit.com/*", "*://mail.google.com/*"],
