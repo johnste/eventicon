@@ -1,6 +1,14 @@
 # Eventicon
 
-A Chrome plugin that uses [Tinycon](https://github.com/tommoor/tinycon) to display social network notifications in the favicon.
+A Google Chrome plugin that uses [Tinycon](https://github.com/tommoor/tinycon) to display social network notifications in the favicon.
+
+## Supported sites
+
++ Facebook
++ GMail
++ LinkedIn
++ Reddit
++ Twitter
 
 # License / Credits
 
