@@ -2,7 +2,7 @@
   "name": "Eventicon",
   "version": "0.1",
   "manifest_version": 2,
-  "description": "Update the favicon of sites with notifications",
+  "description": "Show notifications from websites in the favicon",
   "content_scripts": [
     {
       "matches": ["*://*.facebook.com/*", "*://*.twitter.com/*", "*://*.linkedin.com/*", "*://*.reddit.com/*", "*://mail.google.com/*"],
