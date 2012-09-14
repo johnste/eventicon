@@ -2,6 +2,8 @@
 
 A Google Chrome plugin that uses [Tinycon](https://github.com/tommoor/tinycon) to display social network notifications in the favicon.
 
+<img src="https://raw.github.com/johnste/eventicon/gh-pages/images/screenshot.png" />
+
 ## Supported sites
 
 + Facebook
@@ -9,8 +11,6 @@ A Google Chrome plugin that uses [Tinycon](https://github.com/tommoor/tinycon) t
 + LinkedIn
 + Reddit
 + Twitter
-
-<img src="https://raw.github.com/johnste/eventicon/gh-pages/images/screenshot.png" />
 
 # License / Credits
 
