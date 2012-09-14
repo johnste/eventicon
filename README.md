@@ -10,6 +10,8 @@ A Google Chrome plugin that uses [Tinycon](https://github.com/tommoor/tinycon) t
 + Reddit
 + Twitter
 
+<img src="https://raw.github.com/johnste/eventicon/gh-pages/images/screenshot.png" />
+
 # License / Credits
 
 Eventicon is released under the MIT license. It is simple and easy to understand and places almost no restrictions on what you can do with Eventicon. [More Information](http://en.wikipedia.org/wiki/MIT_License)
