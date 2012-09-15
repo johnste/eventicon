@@ -29,6 +29,8 @@
         // We found a number in the title, update the bubble
         changedTitle = true;
         Tinycon.setBubble(match[1] < 100 ? match[1] : "++");
+        // Remove the notification number from the current title, trim it and add a space at the end. This way, the event
+        // is triggered again when the site resets the title without the number.
         document.title = newTitle.replace(regex, "")
           .replace(/^\s+|\s+$/g, "") + " ";      
       } else if(!changedTitle) {
