@@ -73,7 +73,7 @@
 	var getCurrentFavicon = function(){
 		
 		for(var i in options.overrides) {
-			if(options.overrides[i].href == document.location.href) {
+			if(options.overrides[i].href == document.location.origin) {
 				originalFavicon = currentFavicon = options.overrides[i].favicon;
 				return currentFavicon;
 			}
