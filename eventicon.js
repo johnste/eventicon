@@ -3,7 +3,7 @@
  * John Sterling, http://johnste.se
  * Copyright (c) 2012 John Sterling
  * MIT Licensed
- * @version 0.1.2
+ * @version 0.1.3
 */
 (function(){
   Tinycon.setOptions({
