@@ -11,7 +11,7 @@
     // Add override for sites that cause their favicon to violate the CORS policy
     overrides: [
      {      
-      href: "https://www.facebook.com/",
+      href: "https://www.facebook.com",
       favicon: "https://www.facebook.com/favicon.ico"
      }
     ]
