@@ -11,7 +11,7 @@
   },
   "content_scripts": [
     {
-      "matches": ["*://*.facebook.com/*", "*://*.twitter.com/*", "*://*.linkedin.com/*", "*://*.reddit.com/*", "*://mail.google.com/*"],
+      "matches": ["*://*.facebook.com/*", "*://*.twitter.com/*", "*://*.linkedin.com/*", "*://*.reddit.com/*", "*://mail.google.com/*", "*://*.stackexchange.com/*", "*://*.stackoverflow.com/*"],
       "js": ["tinycon.js", "eventicon.js"]
     }
   ]
