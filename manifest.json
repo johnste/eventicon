@@ -1,17 +1,18 @@
 {
   "name": "Eventicon",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "manifest_version": 2,
   "homepage_url": "http://johnste.github.com/eventicon",
   "description": "Show notifications from websites in the favicon.",
-  "icons": { 
+  "icons": {
            "16": "icons/icon_016.png",
            "48": "icons/icon_048.png",
-          "128": "icons/icon_128.png" 
+          "128": "icons/icon_128.png"
   },
   "content_scripts": [
     {
-      "matches": ["*://*.facebook.com/*", "*://*.twitter.com/*", "*://*.linkedin.com/*", "*://*.reddit.com/*", "*://mail.google.com/*"],
+      "matches": ["*://*.facebook.com/*",
+      "*://*.twitter.com/*", "*://*.linkedin.com/*", "*://*.reddit.com/*", "*://mail.google.com/*", "*://*.github.io/*"],
       "js": ["tinycon.js", "eventicon.js"]
     }
   ]
